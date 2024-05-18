@@ -2,7 +2,7 @@ import React from 'react'
 import Skills from '../../utils/Skills/Skills.jsx'
 import './About.css'
 import Experience from '../../utils/Experience/Experience.jsx'
-import { programmingLanguages , MachineLearning, FullStack} from '../../Imports/skillsimports.js'
+import { programmingLanguages , MachineLearning, FullStack , tools} from '../../Imports/skillsimports.js'
 
 const About = () => {
     return (
@@ -33,14 +33,12 @@ const About = () => {
                 <div className="expWrapper">
                     <h1 className="heading">Experience</h1>
                     <Experience
-                        company="Dolat Capital"
-                        years="October 2023 - Present"
-                        title="Software Developer - C++"
+                        company="Mercurial Minds (pvt) Ltd."
+                        years="June 2023 - September 2023"
+                        title="Software Development Intern"
                         summary={[
-                            "Developed a Flask API with the help of multithreading(python) for monitoring applications, & a socket based FastAPI + React webapp for realtime monitoring of trading servers.",
-                            "Introduced serialization & deserialization using Boost C++ reducing application start time from 5 minutes to under 1 second in case of failures/abrupt process termination.",
-                            "Contributed to feature additions and bug fixes, optimizing system performance for a Trade Order Management System (C++, PSQL, QT, RTI, socket programming, multi-threading).",
-                            "Upgraded C++ 98 code to C++ 17 with extensive infrastructure improvements. Collaborated on designing a database structure for new trading infrastructure.",
+                            
+                            
                         ]}
                     ></Experience>
                     
@@ -53,13 +51,14 @@ const About = () => {
                         title="Programming Languages"
                         images={programmingLanguages}
                     ></Skills>
-                    <Skills
-                        title="Machine Learning"
-                        images={MachineLearning}
-                    ></Skills>
+                    
                     <Skills
                         title="Full Stack Devlopment"
                         images={FullStack}
+                    ></Skills>
+                    <Skills
+                        title="Tools"
+                        images={tools}
                     ></Skills>
                 </div>
             </div>
