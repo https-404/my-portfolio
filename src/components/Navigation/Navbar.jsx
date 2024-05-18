@@ -1,6 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import './Navbar.css'
+import './NavBarStyles.css'
 import {Link, animateScroll as scroll} from 'react-scroll'
 
 const Navbar = () => {
