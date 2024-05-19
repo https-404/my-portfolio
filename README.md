@@ -7,7 +7,7 @@ To get started with this project, follow the steps below:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repo.git
+    git clone https://github.com/https-404/my-portfolio.git
     ```
 
 2. Navigate to the project directory:
@@ -28,7 +28,7 @@ To get started with this project, follow the steps below:
     npm run dev
     ```
 
-5. Open your browser and visit `http://localhost:3000` to see the application.
+5. Open your browser and visit `http://localhost:5173` to see the application.
 
 ## Available Scripts
 
