@@ -30,7 +30,7 @@
 }
 
 .contactIcons:hover {
-    color: palevioletred;
+    color: rgb(84, 129, 255);
 }
 
 @media screen and (max-width: 540px) {

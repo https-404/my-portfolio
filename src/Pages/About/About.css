@@ -10,9 +10,14 @@
   font-weight: bolder;
   transform: translateY(0.5em);
   z-index: 100;
-  color: #d87093;
+  color: #04afff;
 }
-
+.gitlink {
+  color: #dceef7;
+}
+.gitlink:hover {
+  color: #04afff;
+}
 .aboutWrapper a, a::after{
   text-decoration: underline;
 }
@@ -32,13 +37,14 @@
 
 .aboutImage {
   margin-top: 3em;
-  height: 60vh;
-  width: auto;
+  height: 40vh;
+  width: auto ;
   border-radius: 50%;
 }
 
 .aboutWrapper .heading {
-  color: #d87093;
+  color:rgb(172, 194, 236);
+  font-size: 4em;
 }
 
 .expWrapper,

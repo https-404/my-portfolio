@@ -34,7 +34,7 @@
 
 .nav-link:hover {
   text-decoration: underline;
-  color: palevioletred;
+  color: rgb(84, 129, 255);
 }
 
 .isActive {

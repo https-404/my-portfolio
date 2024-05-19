@@ -59,7 +59,7 @@ const Navbar = () => {
                 >
                     Contact
                 </NavLink>
-                <a href="https://drive.google.com/file/d/1rkx3LOiTg5kRwP7yKsjARh0ViAU4ucdB/view?usp=sharing" className="nav-link" target='_blank'>Resume</a>
+                <a href="https://drive.google.com/file/d/1oIuP_7qBpm2Gp-opJyg0uyiJK8_G24Qs/view?usp=sharing" className="nav-link" target='_blank'>Resume</a>
 
             </div>
         </React.Fragment>

@@ -4,7 +4,7 @@ import Dart from '../assets/skills/programminglanguages/dart.svg'
 import JavaScript from '../assets/skills/programminglanguages/javascript.svg'
 import Python from '../assets/skills/programminglanguages/python.svg'
 import TypeScript from '../assets/skills/programminglanguages/typescript.svg'
-import Julia from '../assets/skills/programminglanguages/julia.png'
+import Csharp from '../assets/skills/programminglanguages/csharp.png'
 import Java from '../assets/skills/programminglanguages/java.svg'
 
 
@@ -14,14 +14,17 @@ import PostgreSQL from '../assets/skills/databases/postgresql.svg'
 
 
 import Android from '../assets/skills/frameworks/android.svg'
-import Bootstrap from '../assets/skills/frameworks/bootstrap.svg'
+
 import Flask from '../assets/skills/frameworks/flask.svg'
 import Flutter from '../assets/skills/frameworks/flutter.svg'
 import JQuery from '../assets/skills/frameworks/jquery.svg'
 import NodeJs from '../assets/skills/frameworks/nodejs.svg'
 import ReactJs from '../assets/skills/frameworks/react.svg'
-import Redux from '../assets/skills/frameworks/redux.svg'
-import Springboot from '../assets/skills/frameworks/spring.svg'
+import ExpressJs from '../assets/skills/frameworks/expressjs.png'
+import Blazor from '../assets/skills/frameworks/blazor.png'
+import Dotnet from '../assets/skills/frameworks/dotnet.png'
+
+
 
 
 import CSS from '../assets/skills/others/css.svg'
@@ -42,12 +45,12 @@ import numpy from '../assets/skills/machinelearning/numpy.png'
 import pandas from '../assets/skills/machinelearning/pandas.png'
 import sklearn from '../assets/skills/machinelearning/sklearn.png'
 import pytorch from '../assets/skills/machinelearning/pytorch.png'
-import langchain from '../assets/skills/machinelearning/LangChain.png'
 
-export const programmingLanguages = [Cpp, Python, Java, JavaScript];
+
+export const programmingLanguages = [Cpp, Python, Java, JavaScript, TypeScript, Dart, C, Csharp];
 export const MachineLearning = [numpy, pandas, sklearn, pytorch, cupy]
-export const FullStack = [Flask, NodeJs, ReactJs, JQuery, Bootstrap, HTML, CSS, Firebase, MongoDB, MySQL, Redux, Springboot, PostgreSQL, Flutter]
+export const FullStack = [ NodeJs, ReactJs, Blazor, ExpressJs, Dotnet, Firebase, MongoDB, MySQL,   PostgreSQL, Flutter]
 export const databases = [MongoDB, MySQL];
-export const frameworks = [Android, Bootstrap, Flask, Flutter, JQuery, NodeJs, ReactJs];
+export const frameworks = [Android, ExpressJs, Dotnet, Flutter, JQuery, NodeJs, ReactJs];
 export const others = [CSS, Firebase, Git, HTML, JSON];
 export const tools = [AndoridStudio, GitHub, IntelliJ, VSCode];

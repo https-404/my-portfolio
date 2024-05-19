@@ -13,7 +13,7 @@ const ProjectCard = (props) => {
             <img className='projectImage' src={props.image}></img>
             <div className='techStackWrapper'>
                 <h1>{props.projectTitle}</h1>
-                <a className='gitLink' href={'https://github.com/pri1311/' + props.github}><FontAwesomeIcon icon={faExternalLinkAlt}></FontAwesomeIcon></a>
+                <a className='gitLink' href={'' + props.github}><FontAwesomeIcon icon={faExternalLinkAlt}></FontAwesomeIcon></a>
             </div>
             <div className='techIconWrapper'>
             {techstack}
