@@ -13,7 +13,7 @@ To get started with this project, follow the steps below:
 2. Navigate to the project directory:
 
     ```bash
-    cd your-repo
+    cd my-portfolio
     ```
 
 3. Install the dependencies:
