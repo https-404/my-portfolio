@@ -5,7 +5,9 @@
   --gray-2: #363636;
   --white: white;
   --black: black;
+  
 }
+
 
 .navIcon p{
     color: var(--gray-1);
