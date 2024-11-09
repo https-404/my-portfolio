@@ -1,11 +1,10 @@
-import React from 'react'
 import Skills from '../../utils/Skills/Skills.jsx'
 import profileabout from '../../assets/profile/profileabout.png'
 import experience from '../../assets/profile/expirience.svg'
 import codingskills from '../../assets/profile/codingskills.svg'
 import './About.css'
 import Experience from '../../utils/Experience/Experience.jsx'
-import { programmingLanguages , MachineLearning, FullStack , tools} from '../../Imports/skillsimports.js'
+import { programmingLanguages ,  FullStack , tools} from '../../Imports/skillsimports.js'
 
 const About = () => {
     return (
@@ -46,8 +45,21 @@ const About = () => {
                             "Automated time tracking using Clockify with Google Sheets utilizing Google Apps Script, streamlining workflow processes and improving efficiency."
                             
                         ]}
+                        img="/src/assets/company/mm.png"
                     ></Experience>
-                    
+                    <Experience
+                    company="Bytewise Limited"
+                    years="June 2024 - September 2024"
+                    title="Felowship | Machine Learning & Deep Learning"
+                    summary={[
+                        "Worked on transformer-based NLP models and fine-tuned pre-trained models for text classification and analysis.",
+                        "Implemented CNN models for image processing tasks, improving accuracy through data augmentation and fine-tuning.",
+                        "Conducted data cleaning and preprocessing for NLP and computer vision tasks, ensuring high-quality input for model training.",
+                        "Reviewed and fine-tuned large language models (LLMs) for natural language understanding and generation tasks.",
+                        "Built a crops prediction model using scikit-learn, leveraging machine learning algorithms for accurate forecasting."
+                    ]}
+                    img="/src/assets/company/bw.png"
+                    ></Experience>
                 </div>
             </div>
             <div className="bottomWrapper">

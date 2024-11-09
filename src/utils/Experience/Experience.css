@@ -1,23 +1,33 @@
 .experienceWrapper {
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    flex-direction: row; /* Align content horizontally */
+    align-items: center; /* Center-align the content vertically */
     flex-wrap: wrap;
     padding: 2em 0;
 }
 
 .companyTitle {
     background-color: var(--deep-dark);
-    padding: 0.2em;
-    font-size: 1.5em;
+    padding: 0.5em;
+    font-size: 1.5em; /* Increased font size */
     border-radius: 0.3em;
+    flex-grow: 1; /* Allow title to take available space */
 }
 
-.years{
+.years {
     padding: 0.2em;
     color: var(--gray-2);
+    font-size: 1.5em; /* Increased font size */
 }
 
 .summary li {
-    margin: 0.5em;
+    margin: 1.5em;
+    font-size: 1.5em; /* Increased font size */
+}
+
+.companyImage {
+    max-width: 75px; /* Adjust logo size */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 1em; /* Space between the title and the logo */
+    align-self: last baseline; /* Vertically center the logo */
 }

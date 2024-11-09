@@ -1,7 +1,8 @@
 .aboutWrapper {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+  min-height: 100vh;
 }
 
 .aboutWrapper span.name {
@@ -12,13 +13,16 @@
   z-index: 100;
   color: #04afff;
 }
+
 .gitlink {
   color: #dceef7;
 }
+
 .gitlink:hover {
   color: #04afff;
 }
-.aboutWrapper a, a::after{
+
+.aboutWrapper a, a::after {
   text-decoration: underline;
 }
 
@@ -28,34 +32,43 @@
 
 .topWrapper,
 .bottomWrapper {
-  /* height: 80vh; */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: space-around;
+  align-items: center;
+  width: 100%;
 }
 
 .aboutImage {
   margin-top: 3em;
-  height: 40vh;
-  width: auto ;
-  border-radius: 50%;
+  height: 40em;
+  width: 80em;
+  /* border-radius: 50%; */
+  display: flex;
 }
 
 .aboutWrapper .heading {
-  color:rgb(172, 194, 236);
+  color: rgb(172, 194, 236);
   font-size: 4em;
 }
 
 .expWrapper,
 .skillsWrapper,
 .imageWrapper {
-  /* margin-top: 6em; */
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 100%;
-  /* width: 45%; */
+  justify-content: flex-start;
+  width: auto;
+  /* padding:  2em; Added padding to make space inside sections */
+}
+
+.expWrapper {
+  margin-top: 6em; /* Ensure some space between top and experience section */
+  margin-bottom: 3em; /* Creates space between experience and next section */
+}
+
+.skillsWrapper {
+  margin-top: 6em; /* Space between the skills section and the previous one */
 }
 
 .aboutMe {
@@ -78,29 +91,25 @@
   .topWrapper {
     justify-content: flex-start;
     align-items: flex-start;
+    width: 100%;
   }
 
   .bottomWrapper,
   .topWrapper {
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
   }
 
   .expWrapper,
   .skillsWrapper {
     width: 100%;
-    padding: 0 5em;
-    margin-top: 5em;
-    /* height: 100vh; */
-  }
-
-  .imageWrapper {
-    /* display: none; */
+    padding: 0 2em;
+    margin-top: 4em; /* Adjusted spacing for small screens */
   }
 
   .aboutImage {
-      height: 30vh;
+    height: 30vh;
   }
 }
 
@@ -117,21 +126,21 @@
   }
 
   .aboutWrapper {
-    height: 250vh;
+    height: auto;
   }
+
   .expWrapper,
   .skillsWrapper {
     width: 45%;
   }
 
   .aboutImage {
-      margin-top: 0;
+    margin-top: 0;
   }
 }
 
 @media screen and (max-width: 1024px) {
-    .aboutImage {
-        max-height: calc(min(50vh, 30em));
-    }
-    
+  .aboutImage {
+    max-height: calc(min(50vh, 30em));
+  }
 }
